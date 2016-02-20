@@ -1,0 +1,470 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+  html {
+  box-sizing: border-box;
+  background: url(../img/snow.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#Main {
+  width: 73.5vw;
+  height: 100vh;
+  margin: auto;
+  padding: auto;
+  float: left;
+  background-color: #D5CDFB;
+  border-style: solid;
+  border: thick double #744054;
+}
+
+#Nav ul {
+  list-style-type: none;
+  font:16px 'bonvenocflight', normal;
+  border-style: inset;
+  border-width: thin;
+}
+
+#Nav li {
+  margin: auto 0 auto 9vw;
+  padding: 2em;
+  display: inline;
+  text-align: center;
+}
+
+#Main h2 {
+  font:50px 'lemonchickenregular', normal;
+  color: #323232;
+  text-align: center;
+}
+
+#pfont {
+  font:20px 'bonvenocflight', normal;
+  text-align: center;
+  border-style: inset;
+  border-width: thin;
+
+}
+
+.BoxContiner {
+ float: right;
+ background-color: #E18728;
+}
+
+.box {
+  width: 26vw;
+  height: 49vh;
+  padding: 1em;
+
+}
+
+#Box1 {
+  background-color: #9D929D;
+  margin: 0em 0em 1em 75%;
+  font:16px 'bonvenocflight', normal;
+  border-style: solid;
+  border-width: thin;
+  border-color: #744054;
+}
+
+#Box1 p {
+  padding: .5em .5em 1em .5em;
+}
+
+#Box2 {
+  background-color: #744054;
+  margin: 1em 0em 0em 75%;
+  border-style: solid;
+  border-color: #9D929D;
+  border-width: thin;
+}
+
+#Box2 img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.circular {
+  position: relative;
+	width: 200px;
+	height: 200px;
+  margin-left: 3.75em;
+  margin-top: 2em;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+	background: url(../img/myface.jpg) no-repeat;
+	}
+
+#Caption {
+  position: absolute;
+  font:16px 'bonvenocflight', normal;
+  margin: 15px 0px 20px 100px;
+  }
+
+@media only screen and (max-width:1299px)
+  {
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  html {
+  box-sizing: border-box;
+  background: url(../img/snow.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #Main {
+    width: 100%;
+    height: 48.5%;
+    margin: 0 0 1em 0;
+    padding: 1em;
+    background-color: #D5CDFB;
+  }
+
+  #Nav ul {
+
+    list-style-type: none;
+    font:16px 'bonvenocflight', normal;
+    border-style: inset;
+    border-width: thin;
+  }
+
+  #Nav li {
+    margin: auto 0 auto 9em;
+    padding: 2em;
+  }
+
+  #Main h2 {
+    font:50px 'lemonchickenregular', normal;
+    color: #323232;
+    text-align: center;
+  }
+
+  #pfont {
+    font:20px 'bonvenocflight', normal;
+    text-align: center;
+    border-style: inset;
+    border-width: thin;
+
+  }
+
+  .BoxContiner {
+    height: 48.5%;
+    width: 100%;
+    background-color: #E18728;
+    display: inline-block;
+  }
+
+  .box {
+    width: 48.5%;
+    height: 48.5%;
+    padding: 1em;
+    display: inline-block;
+  }
+
+  #Box1 {
+    float: left;
+    margin: 0;
+    padding: 2em;
+    background-color: #9D929D;
+    font:16px 'bonvenocflight', normal;
+  }
+
+  #Box2 {
+    float: right;
+    margin: 0;
+    padding: 2em;
+    background-color: #744054;
+  }
+
+
+.circular {
+  position: relative;
+	width: 200px;
+	height: 200px;
+  margin-left: 8em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+	background: url(../img/myface.jpg) no-repeat;
+	}
+
+#Caption {
+  position: absolute;
+  font:16px 'bonvenocflight', normal;
+  margin: 0em 0px 2em 10em;
+  padding: 0em 0em 2em oem;
+  }
+}
+
+@media only screen and (max-width:1199px)
+{
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+box-sizing: border-box;
+background: url(../img/snow.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#Main {
+  width: 100%;
+  height: 48.5%;
+  margin: 0 0 1em 0;
+  padding: 1em;
+  background-color: #D5CDFB;
+}
+
+#Nav ul {
+  float: left;
+  list-style-type: none;
+  font:16px 'bonvenocflight', normal;
+  border-style: inset;
+  border-width: thin;
+  padding: 2em 0em 2em 0em;
+}
+
+#Nav li {
+  text-align: center;
+  margin: auto;
+  padding: 1em;
+}
+
+
+
+#Main h2 {
+  font:50px 'lemonchickenregular', normal;
+  color: #323232;
+  text-align: center;
+  margin-top: 1.25em;
+}
+
+#pfont {
+  margin-top: 4em;
+  font:20px 'bonvenocflight', normal;
+  text-align: center;
+  border-style: inset;
+  border-width: thin;
+
+}
+
+.BoxContiner {
+  height: 48.5%;
+  width: 100%;
+  background-color: #E18728;
+  display: inline-block;
+}
+
+.box {
+  width: 48.5%;
+  height: 48.5%;
+  padding: 1em;
+  display: inline-block;
+}
+
+#Box1 {
+  float: left;
+  margin: 0;
+  padding: 2em;
+  background-color: #9D929D;
+  font:16px 'bonvenocflight', normal;
+}
+
+#Box2 {
+  float: right;
+  margin: 0;
+  padding: 2em;
+  background-color: #744054;
+}
+
+
+.circular {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-left: 8em;
+  margin-top: 0em;
+  margin-bottom: .5em;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+  background: url(../img/myface.jpg) no-repeat;
+}
+
+#Caption {
+  position: absolute;
+  font:16px 'bonvenocflight', normal;
+  margin: 0em 0px 0em 10em;
+  }
+}
+
+@media only screen and (max-width:899px and min-width:399px)
+{
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  html {
+  box-sizing: border-box;
+  background: url(../img/snow.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #Main {
+    width: 100%;
+    height: 49%;
+    margin: 0 0 2em 0;
+    padding: 1em;
+    float: none;
+    background-color: #D5CDFB;
+  }
+
+  #Nav ul {
+    float: left;
+    list-style-type: none;
+    font:16px 'bonvenocflight', normal;
+    border-style: inset;
+    border-width: thin;
+    padding: 2em 0em 2em 0em;
+  }
+
+  #Nav li {
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+  }
+
+  #Main h2 {
+    font:50px 'lemonchickenregular', normal;
+    color: #323232;
+    text-align: center;
+    margin-top: 1.25em;
+  }
+
+  h2 {
+
+    font:45px 'lemonchickenregular', normal;
+    text-align: center;
+
+  }
+
+  #pfont {
+    font:20px 'bonvenocflight', normal;
+
+  }
+
+  .BoxContiner {
+    float: none;
+    height: 49%;
+    width: 100%;
+   background-color: #E18728;
+  }
+
+  .box {
+    width: 100%;
+    height: 24%;
+    padding: 1em;
+  }
+
+  #Box1 {
+    float: none;
+    background-color: #9D929D;
+    margin-bottom: 2em;
+    font:16px 'bonvenocflight', normal;
+  }
+
+  #Box1 p {
+    text-align: center;
+  }
+
+  #Box2 {
+
+    float: none;
+    background-color: #744054;
+  }
+
+  .circular {
+    position: relative;
+  	width: 200px;
+  	height: 200px;
+    margin: 0 auto 2em auto;
+    padding: auto;
+  	border-radius: 150px;
+  	-webkit-border-radius: 150px;
+  	-moz-border-radius: 150px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+  	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+  	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+  	background: url(../img/myface.jpg) no-repeat;
+  	}
+
+  .circular #Caption {
+    position: absolute;
+    font:16px 'bonvenocflight', normal;
+    text-align: center;
+
+
+    }
+
+}
